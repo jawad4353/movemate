@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.movemate"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\My apps projects\movemate\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->D:\My apps projects\movemate\android\app\src\main\AndroidManifest.xml:3:22-64
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.movemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.movemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+24        android:name="android.app.Application"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+28        android:label="Movemate"
+29        android:networkSecurityConfig="@xml/network_security_config"
+30        android:supportsRtl="true"
+31        android:usesCleartextTraffic="true" >
+32        <activity
+33            android:name="com.example.movemate.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                  Specifies an Android theme to apply to this Activity as soon as
+43                             the Android process has started. This theme is visible to the user
+44                             while the Flutter UI initializes. After that, this theme continues
+45                             to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58              Don't delete the meta-data below.
+59                     This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64        <!--
+65           Declares a provider which allows us to store files to share in
+66           '.../caches/share_plus' and grant the receiving action access
+67        -->
+68        <provider
+68-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:20
+69            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+69-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-77
+70            android:authorities="com.example.movemate.flutter.share_provider"
+70-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+71            android:exported="false"
+71-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+72            android:grantUriPermissions="true" >
+72-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-47
+73            <meta-data
+73-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:68
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-67
+75                android:resource="@xml/flutter_share_file_paths" />
+75-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-65
+76        </provider>
+77        <!--
+78           This manifest declared broadcast receiver allows us to use an explicit
+79           Intent when creating a PendingItent to be informed of the user's choice
+80        -->
+81        <receiver
+81-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-34:20
+82            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+82-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-82
+83            android:exported="false" >
+83-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-37
+84            <intent-filter>
+84-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33:29
+85                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+85-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-65
+85-->[:share_plus] D:\My apps projects\movemate\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-62
+86            </intent-filter>
+87        </receiver>
+88
+89        <uses-library
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+90            android:name="androidx.window.extensions"
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+92        <uses-library
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+93            android:name="androidx.window.sidecar"
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+95
+96        <activity
+96-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+97            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+97-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+98            android:excludeFromRecents="true"
+98-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+101        <!--
+102            Service handling Google Sign-In user revocation. For apps that do not integrate with
+103            Google Sign-In, this service will never be started.
+104        -->
+105        <service
+105-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+106            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+106-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+107            android:exported="true"
+107-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+108            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+108-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+109            android:visibleToInstantApps="true" />
+109-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fawad\.gradle\caches\transforms-3\680a2964d8a0bce7cbd43c0f88e0420c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fawad\.gradle\caches\transforms-3\680a2964d8a0bce7cbd43c0f88e0420c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fawad\.gradle\caches\transforms-3\680a2964d8a0bce7cbd43c0f88e0420c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fawad\.gradle\caches\transforms-3\680a2964d8a0bce7cbd43c0f88e0420c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\fawad\.gradle\caches\transforms-3\168f69656657bc55ed47a380e965316c\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\fawad\.gradle\caches\transforms-3\168f69656657bc55ed47a380e965316c\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\fawad\.gradle\caches\transforms-3\168f69656657bc55ed47a380e965316c\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+119    </application>
+120
+121</manifest>

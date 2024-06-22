@@ -1,0 +1,4 @@
+#Fri Jun 14 03:14:44 PDT 2024
+base.0=D\:\\My apps projects\\movemate\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

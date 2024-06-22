@@ -1,0 +1,4 @@
+#Fri Jun 21 10:46:00 PDT 2024
+base.0=D\:\\My apps projects\\movemate\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

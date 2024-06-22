@@ -1,0 +1,21 @@
+com.example.movemate.app-jetified-window-1.0.0-beta04-0 C:\Users\fawad\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\res
+com.example.movemate.app-jetified-play-services-basement-18.2.0-1 C:\Users\fawad\.gradle\caches\transforms-3\168f69656657bc55ed47a380e965316c\transformed\jetified-play-services-basement-18.2.0\res
+com.example.movemate.app-jetified-play-services-auth-20.7.0-2 C:\Users\fawad\.gradle\caches\transforms-3\4404bb8721373756f4fc8fd34059d6c0\transformed\jetified-play-services-auth-20.7.0\res
+com.example.movemate.app-jetified-play-services-base-18.0.1-3 C:\Users\fawad\.gradle\caches\transforms-3\680a2964d8a0bce7cbd43c0f88e0420c\transformed\jetified-play-services-base-18.0.1\res
+com.example.movemate.app-jetified-annotation-experimental-1.3.0-4 C:\Users\fawad\.gradle\caches\transforms-3\761929e091d544d9e6394773eda8bdee\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.movemate.app-jetified-window-java-1.0.0-beta04-5 C:\Users\fawad\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.movemate.app-lifecycle-runtime-2.3.1-6 C:\Users\fawad\.gradle\caches\transforms-3\db4b39695b36fb6bc4e9dc229c8d81d0\transformed\lifecycle-runtime-2.3.1\res
+com.example.movemate.app-core-1.12.0-7 C:\Users\fawad\.gradle\caches\transforms-3\e968b92a49449446af5c566776f7ce5e\transformed\core-1.12.0\res
+com.example.movemate.app-jetified-core-ktx-1.12.0-8 C:\Users\fawad\.gradle\caches\transforms-3\f352b3802daed4923f8d6f4e3ad6c1a8\transformed\jetified-core-ktx-1.12.0\res
+com.example.movemate.app-main-9 D:\My apps projects\movemate\android\app\src\main\res
+com.example.movemate.app-release-10 D:\My apps projects\movemate\android\app\src\release\res
+com.example.movemate.app-pngs-11 D:\My apps projects\movemate\build\app\generated\res\pngs\release
+com.example.movemate.app-resValues-12 D:\My apps projects\movemate\build\app\generated\res\resValues\release
+com.example.movemate.app-rs-13 D:\My apps projects\movemate\build\app\generated\res\rs\release
+com.example.movemate.app-mergeReleaseResources-14 D:\My apps projects\movemate\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.movemate.app-mergeReleaseResources-15 D:\My apps projects\movemate\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.movemate.app-merged_res-16 D:\My apps projects\movemate\build\app\intermediates\merged_res\release
+com.example.movemate.app-packaged_res-17 D:\My apps projects\movemate\build\path_provider_android\intermediates\packaged_res\release
+com.example.movemate.app-packaged_res-18 D:\My apps projects\movemate\build\share_plus\intermediates\packaged_res\release
+com.example.movemate.app-packaged_res-19 D:\My apps projects\movemate\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.movemate.app-packaged_res-20 D:\My apps projects\movemate\build\smart_auth\intermediates\packaged_res\release
